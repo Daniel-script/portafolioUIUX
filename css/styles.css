@@ -1,0 +1,442 @@
+
+:root{
+  --principal: #2196f3;
+  --secundario: #031321;
+  --tercero: #1A5F7A;
+  --dia: #ffffff;
+}
+
+
+
+body{
+  background-color: var(--bg);
+  color: var(--micolor);
+
+}
+/*///////////////hasta aquí las variables*********/
+.noche{
+  --bg: var(--secundario);
+  --micolor: var(--dia);
+  
+}
+.dia{
+  --bg: var(--dia);
+  --micolor: var(--secundario);
+
+}
+
+/*///////////////hasta aquí dark night*********/
+.dia .minav{
+  background-color: var(--secundario);
+}
+.minav{
+  background-color: var(--dia);
+}
+
+#menuarriba a{
+  color: var(--secundario);
+  margin-right: 20px;
+  font-size: large;
+  
+  
+}
+/* #menuarriba a:hover{
+  
+  transition: 500ms;
+  text-decoration: underline;
+  
+  
+  
+} */
+.active{
+  text-decoration: wavy;
+}
+
+.logo{
+  color: var(--secundario) !important;
+}
+
+/*///////////////hasta aquí menu de arriba*********/
+
+#milogo{
+  width: 50px;
+  height: 50px;
+}
+
+.hero{
+  height: 100vh;
+  /* background-color: #031321; */
+  /* background-image: url('../img/retrato.jpg'); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px;
+  
+  
+}
+
+
+
+.hero1{
+  /* color: aliceblue; */
+  margin-top: 100px;
+  display: flex;
+
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+
+
+
+
+#multiple{
+  color: var(--principal);
+}
+
+.hero2{
+  margin-top: 100px;
+  display: flex;
+
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen1{
+  border-radius: 95px 200px 81px 107px;
+-webkit-border-radius: 95px 200px 81px 107px;
+-moz-border-radius: 95px 200px 81px 107px;
+width: 50%;
+}
+
+.hero3{
+  display: flex;
+ 
+  
+  justify-content: center;
+  align-items: center;
+}
+#intro{
+  color: var(--principal)
+}
+
+.fotospadre{
+  display: flex;
+
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+#fotos{
+  
+  margin-top: 10vh;
+  background-image: url(../img/retrato.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  width: 70%;
+  border-radius: 121px 200px 200px 162px;
+-webkit-border-radius: 121px 200px 200px 162px;
+-moz-border-radius: 121px 200px 200px 162px;
+
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*///////////////hasta aquí dark night*********/
+
+#menuAbajo {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  background-color: var(--dia);
+  margin-bottom: -8px;
+  width: 100%;
+ 
+  
+}
+#menuAbajo a{
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+#menuAbajo a i{
+  
+  font-size: large;
+  color: var(--principal);
+}
+
+.dia #menuAbajo{
+  background-color: #031321;
+  
+}
+/*///////////////hasta aquí el menu de abajo*********/
+
+/*///////////////empezamos section de estudios*********/
+
+main section div img{
+  width: 80%;
+  height: 200px;
+  border-radius: 5%;
+  margin: 10%;
+  margin-bottom: 2%;
+}
+
+
+
+main{
+  margin-top: 15vh !important;
+}
+
+main section:last-child{
+  margin-top: 5vh;
+  padding: 10%;
+}
+
+/********************efecto fade dinamico desde javascript/////////////////*/
+
+
+.misEstudios{
+  margin-top: 4%;
+}
+
+@media screen and (orientation: landscape) {
+  .misEstudios {
+    margin-top: 20%;
+  }
+}
+
+
+
+
+/********************estilos de las cartas/////////////////*/
+h3{
+  text-align: center;
+  margin: 7%;
+}
+.card-body{
+  background-color: var(--secundario);
+}
+
+
+.tipo{
+  
+   width: 50vh;
+  margin-top: 5vh !important;
+  border-radius: 5%;
+  padding: 3%; 
+  
+}
+.tipo h4{
+  color: var(--secundario);
+}
+.card-body{
+  height: 80%;
+
+}
+.card{
+  margin: 5%;
+  
+}
+
+
+.uno{
+  background-color: rgb(224, 146, 0)
+}
+
+.dos{
+  background-color: yellow;
+}
+
+.tres{
+  background: rgb(0, 195, 255);
+}
+
+.cuatro{
+  background-color: rgb(25, 189, 189);
+}
+
+.cinco{
+  background-color: bisque;
+}
+
+.seis{
+  background-color: rgb(215, 215, 20);
+}
+
+.siete{
+  background-color: rgb(230, 178, 48);
+}
+
+.ocho{
+  background-color: purple;
+}
+
+.nueve{
+  background-color: aliceblue;
+}
+
+
+.tipo:hover {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.7), 0 0 10px rgba(255, 255, 255, 0.7) inset;
+  transition: box-shadow 0.5s ease-in-out;
+}
+
+
+/***************empieza la section de apis*/
+
+ .apicachu{
+  /* width: 40%;
+  height: 200px; */
+  border: 3px solid var(--principal) !important;
+
+
+} 
+
+
+
+.dia .text-api, .card-text{
+  color: var(--dia);
+}
+/*** ahora empezamos el formulario*/
+
+form{
+  margin: 0 auto;
+  width: 50%;
+  /* border: 3px solid var(--principal) !important; */
+  padding: 5%;
+}
+
+.dia form{
+  background-color: var(--secundario);
+}
+
+.dia form label{
+  color: var(--dia);
+}
+
+#comentario{
+  color: var(--secundario);
+}
+
+.btnform{
+  background-color: var(--principal);
+}
+
+.rojo{
+  color: red;
+}
+
+.verde{
+  border: 3px solid rgb(41, 166, 41);
+}
+/****esto es el footer*/
+
+footer{
+  margin-top: 8% !important;
+  
+  border-top: 1px solid var(--principal);
+}
+
+
+.dani{
+  background-image: url(../img/retrato.jpg);
+}
+
+
+
+/*********queris************/
+
+@media only screen and (orientation: landscape) {
+  .cartas {
+    margin-left: 5%;
+  }
+}
+
+#acepto{
+  margin: 7% !important;
+}
+
+#exampleCheck1{
+  margin-top:  7% !important;
+
+}
+
+#comentario{
+  padding: 10px;
+}
+/********botones menu de arriba*/
+
+.dia #menuarriba a{
+  color: var(--dia);
+}
+
+/* CSS */
+#menuarriba a {
+  text-decoration: none;
+  position: relative;
+}
+
+#menuarriba a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #000; /* Cambia esto al color deseado */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+#menuarriba a:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.dia #menuarriba a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background-color: #ffffff; /* Cambia esto al color deseado */
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.dia #menuarriba a:hover::after {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+
+
+/************fontfamily menu arriba*/
+  @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+  #menuarriba a{
+    font-family: 'Instrument Serif', serif;
+  }

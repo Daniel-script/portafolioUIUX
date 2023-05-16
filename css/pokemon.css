@@ -1,0 +1,72 @@
+:root{
+    --principal: #2196f3;
+    --secundario: #031321;
+    --tercero: #1A5F7A;
+    --dia: #dedee2;
+  }
+  
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.padre{
+    
+  padding-right: 2%;
+   padding-left: 7%;
+    background-color: var(--secundario);
+}
+
+h1{
+    text-align: center;
+    color: var(--principal);
+}
+
+
+.pokemon-block{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    /* width: 25%; */
+    height: 250px;
+    margin: 1%;
+    border-radius: 2%;
+    border: 3px solid var(--principal);
+    
+    
+}
+
+
+.image-container{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5%;
+    background-image: url(/blov.svg);
+    background-repeat: no-repeat;
+    
+    background-position: center;
+    
+}
+
+.name{
+    text-align: center;
+    padding-bottom: 5% !important;
+    font-weight: bold;
+}
+.numero{
+    text-align: center;
+}
+
+
+img:hover{
+    transform: scale(2.9);
+    transition: 1000ms;
+}
+
+ul{
+    background-color: var(--secundario);
+    padding: 3%;
+}
